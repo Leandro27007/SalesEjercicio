@@ -1,6 +1,8 @@
-﻿namespace Sales.Domain.Entities
+﻿using Sales.Domain.Core;
+
+namespace Sales.Domain.Entities
 {
-    public class NumeroCorrelativo
+    public class NumeroCorrelativo : BaseEntity
     {
         public int UltimoNumero { get; set; }
         public int CantidadDigitos { get; set; }

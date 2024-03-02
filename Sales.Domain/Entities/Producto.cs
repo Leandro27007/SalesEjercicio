@@ -1,6 +1,8 @@
-﻿namespace Sales.Domain.Entities
+﻿using Sales.Domain.Core;
+
+namespace Sales.Domain.Entities
 {
-    public class Producto
+    public class Producto : BaseEntity
     {
         public string CodigoBarra { get; set; }
         public string Marca { get; set; }
